@@ -4,7 +4,8 @@
   "info": {
     "singularName": "test",
     "pluralName": "tests",
-    "displayName": "Test"
+    "displayName": "Test",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,19 +25,30 @@
       "type": "string"
     },
     "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
     }
   }
 }
