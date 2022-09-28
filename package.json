@@ -20,6 +20,7 @@
     "strapi-plugin-config-sync": "^1.0.4",
     "strapi-plugin-import-export-entries": "^1.15.0",
     "strapi-plugin-preview-button": "^1.0.0",
+    "strapi-plugin-sitemap": "^2.0.8",
     "strapi-plugin-todo": "^0.0.9"
   },
   "author": {
