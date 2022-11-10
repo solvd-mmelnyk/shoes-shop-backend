@@ -67,6 +67,20 @@
       "type": "decimal",
       "required": true,
       "min": 0
+    },
+    "userID": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "products"
+    },
+    "teamName": {
+      "type": "enumeration",
+      "enum": [
+        "fb-team",
+        "ea-team"
+      ],
+      "required": true
     }
   }
 }
