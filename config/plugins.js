@@ -13,14 +13,13 @@ module.exports = ({ env }) => ({
         host: env("SMTP_HOST", "smtp.gmail.com"),
         port: env("SMTP_PORT", 587),
         auth: {
-          user: "mihael.melnyk@gmail.com",
-          pass: "lohpiyavtgntkqeg",
+          user: env("SMTP_USER", "mihael.melnyk@gmail.com"),
+          pass: env("SMTP_PASS", "lohpiyavtgntkqeg"),
         },
-        // ... any custom nodemailer options
       },
       settings: {
-        defaultFrom: "mihael.melnyk@gmail.com",
-        defaultReplyTo: "mihael.melnyk@gmail.com",
+        defaultFrom: env("SMTP_USER", "mihael.melnyk@gmail.com"),
+        defaultReplyTo: env("SMTP_USER", "mihael.melnyk@gmail.com"),
       },
     },
   },
