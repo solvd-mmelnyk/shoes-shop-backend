@@ -52,9 +52,9 @@
       "target": "api::gender.gender",
       "inversedBy": "products"
     },
-    "size": {
+    "sizes": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::size.size",
       "inversedBy": "products"
     },
