@@ -877,7 +877,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
       'manyToOne',
       'plugin::users-permissions.user'
     >;
-    teamName: Attribute.Enumeration<['fb-team', 'ea-team']> &
+    teamName: Attribute.Enumeration<['team-1', 'team-2', 'team-3']> &
       Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;

@@ -20,9 +20,7 @@
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "description": {
       "type": "richtext",
@@ -76,10 +74,7 @@
     },
     "teamName": {
       "type": "enumeration",
-      "enum": [
-        "fb-team",
-        "ea-team"
-      ],
+      "enum": ["team-1", "team-2", "team-3"],
       "required": true
     }
   }

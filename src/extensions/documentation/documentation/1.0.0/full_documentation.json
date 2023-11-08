@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-11-07T12:02:16.272Z"
+    "x-generation-date": "2023-11-08T12:04:00.405Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1689,8 +1689,9 @@
                         "teamName": {
                           "type": "string",
                           "enum": [
-                            "fb-team",
-                            "ea-team"
+                            "team-1",
+                            "team-2",
+                            "team-3"
                           ]
                         },
                         "createdAt": {
@@ -3419,8 +3420,9 @@
                         "teamName": {
                           "type": "string",
                           "enum": [
-                            "fb-team",
-                            "ea-team"
+                            "team-1",
+                            "team-2",
+                            "team-3"
                           ]
                         },
                         "createdAt": {
@@ -5149,8 +5151,9 @@
                         "teamName": {
                           "type": "string",
                           "enum": [
-                            "fb-team",
-                            "ea-team"
+                            "team-1",
+                            "team-2",
+                            "team-3"
                           ]
                         },
                         "createdAt": {
@@ -6879,8 +6882,9 @@
                         "teamName": {
                           "type": "string",
                           "enum": [
-                            "fb-team",
-                            "ea-team"
+                            "team-1",
+                            "team-2",
+                            "team-3"
                           ]
                         },
                         "createdAt": {
@@ -7127,8 +7131,9 @@
               "teamName": {
                 "type": "string",
                 "enum": [
-                  "fb-team",
-                  "ea-team"
+                  "team-1",
+                  "team-2",
+                  "team-3"
                 ]
               }
             }
@@ -8806,8 +8811,9 @@
                                     "teamName": {
                                       "type": "string",
                                       "enum": [
-                                        "fb-team",
-                                        "ea-team"
+                                        "team-1",
+                                        "team-2",
+                                        "team-3"
                                       ]
                                     },
                                     "createdAt": {
@@ -9018,8 +9024,9 @@
           "teamName": {
             "type": "string",
             "enum": [
-              "fb-team",
-              "ea-team"
+              "team-1",
+              "team-2",
+              "team-3"
             ]
           },
           "createdAt": {
@@ -10697,8 +10704,9 @@
                         "teamName": {
                           "type": "string",
                           "enum": [
-                            "fb-team",
-                            "ea-team"
+                            "team-1",
+                            "team-2",
+                            "team-3"
                           ]
                         },
                         "createdAt": {
