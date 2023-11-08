@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-11-08T12:04:00.405Z"
+    "x-generation-date": "2023-11-08T13:32:32.950Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1254,11 +1254,6 @@
                               }
                             }
                           }
-                        },
-                        "uniqueID": {
-                          "type": "string",
-                          "pattern": "^\\d*$",
-                          "example": "123456789"
                         },
                         "price": {
                           "type": "number",
@@ -2986,11 +2981,6 @@
                             }
                           }
                         },
-                        "uniqueID": {
-                          "type": "string",
-                          "pattern": "^\\d*$",
-                          "example": "123456789"
-                        },
                         "price": {
                           "type": "number",
                           "format": "float"
@@ -4716,11 +4706,6 @@
                               }
                             }
                           }
-                        },
-                        "uniqueID": {
-                          "type": "string",
-                          "pattern": "^\\d*$",
-                          "example": "123456789"
                         },
                         "price": {
                           "type": "number",
@@ -6448,11 +6433,6 @@
                             }
                           }
                         },
-                        "uniqueID": {
-                          "type": "string",
-                          "pattern": "^\\d*$",
-                          "example": "123456789"
-                        },
                         "price": {
                           "type": "number",
                           "format": "float"
@@ -7021,7 +7001,6 @@
               "name",
               "images",
               "description",
-              "uniqueID",
               "price",
               "teamName"
             ],
@@ -7108,11 +7087,6 @@
                   "example": "string or id"
                 }
               },
-              "uniqueID": {
-                "type": "string",
-                "pattern": "^\\d*$",
-                "example": "123456789"
-              },
               "price": {
                 "type": "number",
                 "format": "float"
@@ -7192,7 +7166,6 @@
           "name",
           "images",
           "description",
-          "uniqueID",
           "price",
           "teamName"
         ],
@@ -8377,11 +8350,6 @@
                                         }
                                       }
                                     },
-                                    "uniqueID": {
-                                      "type": "string",
-                                      "pattern": "^\\d*$",
-                                      "example": "123456789"
-                                    },
                                     "price": {
                                       "type": "number",
                                       "format": "float"
@@ -8994,11 +8962,6 @@
                 }
               }
             }
-          },
-          "uniqueID": {
-            "type": "string",
-            "pattern": "^\\d*$",
-            "example": "123456789"
           },
           "price": {
             "type": "number",
@@ -10269,11 +10232,6 @@
                               }
                             }
                           }
-                        },
-                        "uniqueID": {
-                          "type": "string",
-                          "pattern": "^\\d*$",
-                          "example": "123456789"
                         },
                         "price": {
                           "type": "number",

@@ -20,7 +20,9 @@
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "description": {
       "type": "richtext",
@@ -56,11 +58,6 @@
       "target": "api::size.size",
       "inversedBy": "products"
     },
-    "uniqueID": {
-      "type": "biginteger",
-      "required": true,
-      "unique": true
-    },
     "price": {
       "type": "decimal",
       "required": true,
@@ -74,7 +71,11 @@
     },
     "teamName": {
       "type": "enumeration",
-      "enum": ["team-1", "team-2", "team-3"],
+      "enum": [
+        "team-1",
+        "team-2",
+        "team-3"
+      ],
       "required": true
     }
   }

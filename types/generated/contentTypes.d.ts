@@ -866,7 +866,6 @@ export interface ApiProductProduct extends Schema.CollectionType {
       'manyToMany',
       'api::size.size'
     >;
-    uniqueID: Attribute.BigInteger & Attribute.Required & Attribute.Unique;
     price: Attribute.Decimal &
       Attribute.Required &
       Attribute.SetMinMax<{
