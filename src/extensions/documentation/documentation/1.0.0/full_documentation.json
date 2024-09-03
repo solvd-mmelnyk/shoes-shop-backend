@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-11-08T13:32:32.950Z"
+    "x-generation-date": "2024-09-03T08:12:40.150Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1686,7 +1686,9 @@
                           "enum": [
                             "team-1",
                             "team-2",
-                            "team-3"
+                            "team-3",
+                            "team-4",
+                            "team-5"
                           ]
                         },
                         "createdAt": {
@@ -3412,7 +3414,9 @@
                           "enum": [
                             "team-1",
                             "team-2",
-                            "team-3"
+                            "team-3",
+                            "team-4",
+                            "team-5"
                           ]
                         },
                         "createdAt": {
@@ -5138,7 +5142,9 @@
                           "enum": [
                             "team-1",
                             "team-2",
-                            "team-3"
+                            "team-3",
+                            "team-4",
+                            "team-5"
                           ]
                         },
                         "createdAt": {
@@ -6864,7 +6870,9 @@
                           "enum": [
                             "team-1",
                             "team-2",
-                            "team-3"
+                            "team-3",
+                            "team-4",
+                            "team-5"
                           ]
                         },
                         "createdAt": {
@@ -7107,7 +7115,9 @@
                 "enum": [
                   "team-1",
                   "team-2",
-                  "team-3"
+                  "team-3",
+                  "team-4",
+                  "team-5"
                 ]
               }
             }
@@ -8781,7 +8791,9 @@
                                       "enum": [
                                         "team-1",
                                         "team-2",
-                                        "team-3"
+                                        "team-3",
+                                        "team-4",
+                                        "team-5"
                                       ]
                                     },
                                     "createdAt": {
@@ -8989,7 +9001,9 @@
             "enum": [
               "team-1",
               "team-2",
-              "team-3"
+              "team-3",
+              "team-4",
+              "team-5"
             ]
           },
           "createdAt": {
@@ -10664,7 +10678,9 @@
                           "enum": [
                             "team-1",
                             "team-2",
-                            "team-3"
+                            "team-3",
+                            "team-4",
+                            "team-5"
                           ]
                         },
                         "createdAt": {
